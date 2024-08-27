@@ -1,0 +1,143 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Note{
+  background-color: #fa78c6;
+  border-radius: 10px;
+  padding: 1rem;
+  min-height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  white-space: pre-wrap;
+}
+
+.notefooter{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.noteslist{
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.sidebar {
+  min-width: 20%;
+}
+
+.container{
+  min-width: 80%;
+  padding-right: 5%;
+  padding-left: 5%;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   
+}
+
+
+
+.Note.new{
+  background-color: #40daf5;
+  }
+
+  textarea{
+    border: none;
+    resize: none;
+    background-color: #40daf5;
+
+  }
+
+  textarea:focus{
+    outline: none;
+  }
+
+  .save{
+    background-color: #e1e1e1;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+    
+  }
+
+  .save:hover{
+    background-color: #fa78c6;
+    cursor: pointer;
+  }
+
+  .deleteic{
+    cursor: pointer;
+    
+  }
+
+  .search{
+    display: flex;
+    align-items: center;
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+    
+  }
+
+  .search input{
+    border: none;
+    background-color: rgb(233, 233, 233);
+  }
+
+  .search input:focus{
+    outline: none;
+  }
+
+  .Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  @font-face { 
+      font-family: Damsterdam; 
+      src: url('Damsterdam.ttf'); 
+    
+    }
+ 
+.Header .hd{
+  font-family: damsterdam;
+  color: #fa78c6;
+  font-size: 5em;
+  
+
+}
+
+.savedark {
+  color: black;
+}
+
+
+
+.whole {
+  display: flex;
+  flex-direction: row ;
+}
+
+.moon {
+  color: black;
+}
+
